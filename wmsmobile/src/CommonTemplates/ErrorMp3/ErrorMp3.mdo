@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62487cfc-9fad-4695-9d09-25d3ddd235bb">
+  <name>ErrorMp3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Error mp3</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

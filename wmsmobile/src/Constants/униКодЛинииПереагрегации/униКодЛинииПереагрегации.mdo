@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="089d37e9-5fff-42f6-be88-7fd43f4516cc">
+  <producedTypes>
+    <managerType typeId="4754e7da-31db-4ffb-98ae-ad5c0ccfa849" valueTypeId="06099e30-dedd-4cbb-8724-f7498fd42022"/>
+    <valueManagerType typeId="75be4c8f-c525-44cc-81bb-b7e7174c27c3" valueTypeId="a4a435d8-bcea-4f2a-aa15-c0ab49bd054f"/>
+    <valueKeyType typeId="6a4545a2-34fb-53ab-b2ff-160a375095e8" valueTypeId="132dad7b-5cdb-5dde-b5fa-497b4d05ca64"/>
+  </producedTypes>
+  <name>униКодЛинииПереагрегации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уни код линии переагрегации</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>2</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

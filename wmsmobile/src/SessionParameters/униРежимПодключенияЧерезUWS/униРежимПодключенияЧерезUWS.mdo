@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c76f2f9-5f64-4098-ac15-846da0f5c2a8">
+  <name>униРежимПодключенияЧерезUWS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уни режим подключения через UWS</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+</mdclass:SessionParameter>

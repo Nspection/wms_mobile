@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c1afdf9-9d75-4d48-9af2-b661cc2db14c">
+  <producedTypes>
+    <managerType typeId="55ba0df0-91a7-4c88-92bd-7d32842b6fb4" valueTypeId="51652f59-a242-4591-925a-c40b19a82d8b"/>
+    <valueManagerType typeId="efd91ee0-6ff4-4281-bff0-c05fa87cad17" valueTypeId="57122232-0a04-4297-ba2e-f8c1496fffd4"/>
+    <valueKeyType typeId="16a041c4-53eb-4402-bbc5-57a27834b4d6" valueTypeId="827a31bb-976f-498f-a8b1-704a50f68ef2"/>
+  </producedTypes>
+  <name>ДатаВремяВызоваСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата время вызова сервера</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

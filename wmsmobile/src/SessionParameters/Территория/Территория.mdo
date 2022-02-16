@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0be91da-0480-4fe7-9e93-a92b674548d0">
+  <name>Территория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Территория</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

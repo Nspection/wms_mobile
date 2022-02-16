@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="310cee91-0163-4df7-878b-28637b547b10">
+  <producedTypes>
+    <objectType typeId="a9922227-da58-4085-80bf-349e336f6cf1" valueTypeId="d8d0fa9b-fce8-4958-acdf-40265e996f45"/>
+    <refType typeId="082b0547-dce4-45aa-b9b9-31797915f5bb" valueTypeId="84247314-d502-4149-8c9c-df44b53a9da5"/>
+    <selectionType typeId="0b8e332e-7d96-444d-995b-441c52e2e648" valueTypeId="06c44520-087a-4e30-b742-78818e40f32c"/>
+    <listType typeId="9d997613-7903-4b09-ada8-69c9bdef1688" valueTypeId="c17adaf8-9e3d-460b-83e7-dd7d9518cd3d"/>
+    <managerType typeId="bab5ae8f-c34d-4cfe-b940-409d9b7d96bd" valueTypeId="4e928e3f-3675-406d-af2c-a48b07158e9f"/>
+  </producedTypes>
+  <name>итКонтрольОтгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль отгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.итКонтрольОтгрузки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.итКонтрольОтгрузки.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.итКонтрольОтгрузки.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="16b3c449-dbcf-473d-9faa-80c5e5bb1c9b">
+    <name>ШкОтгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шк отгрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="497413fb-1a23-4d6e-a6a7-299384389bbe">
+    <name>ДатаНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата накладной</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="41671d4a-d89e-4338-8e31-d94ce281c28e">
+    <name>НомерНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер накладной</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25df47bf-75e4-463a-aa27-7a0b4b9ae71b">
+    <name>КлючНакладной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ накладной</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6f541933-6c67-4d13-bf8c-098a7adeb5df">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b08c59e7-d71a-4acf-8e43-314292a68536">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="50a004df-3ab5-46f9-bbce-2f774e9192cc">
+    <producedTypes>
+      <objectType typeId="8d549b41-3c82-4dbf-bf7d-45014c9ba40d" valueTypeId="3a46b94c-fdee-4ea2-ace2-46bc3ab50acc"/>
+      <rowType typeId="5ef82f05-4f25-48cc-aec0-cf5866a8cd08" valueTypeId="4265e239-8245-4a8d-876e-83f345da7fd6"/>
+    </producedTypes>
+    <name>ПаллетыКОтгрузке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Паллеты к отгрузке</value>
+    </synonym>
+    <attributes uuid="173e1b5c-0266-4c0d-8bdb-da5aa77d9e0e">
+      <name>ИдентификаторУпаковки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор упаковки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>172</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6163893c-3a34-46be-9462-cb0940a8bad1">
+      <name>Отгружено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отгружено</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

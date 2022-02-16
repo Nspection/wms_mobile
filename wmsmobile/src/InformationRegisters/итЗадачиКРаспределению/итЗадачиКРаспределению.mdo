@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46d7578c-0a77-4f6e-9f47-c2785876feee">
+  <producedTypes>
+    <selectionType typeId="84a7f91e-2f0a-475d-86a1-6cb737ac51c4" valueTypeId="69b73bf5-7b2d-4db5-941f-57a3b774542b"/>
+    <listType typeId="f49673c9-27af-43ad-a237-d225ee994119" valueTypeId="4fe78cb5-cbd5-44a3-8709-588559f87590"/>
+    <managerType typeId="c892d75a-856f-4222-9cc2-d25b5c50b1da" valueTypeId="c80ca3df-db9c-483e-91c8-8879d75bacf8"/>
+    <recordSetType typeId="949b872a-1f00-4526-9e4c-9ec1bd001c31" valueTypeId="daf44495-b25a-498d-8d80-8d175768b2c8"/>
+    <recordKeyType typeId="2749d420-d662-48cb-a785-251c0e27e42b" valueTypeId="8538cfeb-a666-4560-a35f-3a2715689fb4"/>
+    <recordType typeId="68dac731-6096-4a6d-9af1-9928c2a98c11" valueTypeId="ba2a400f-cfce-4cd4-9946-d4d6b6b6202b"/>
+    <recordManagerType typeId="a33f312a-9207-4a1d-9fbc-01eb6311f8b0" valueTypeId="0c4165c4-6802-462b-8b73-496841353404"/>
+  </producedTypes>
+  <name>итЗадачиКРаспределению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит задачи к распределению</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.итЗадачиКРаспределению.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8969eec7-8beb-4e69-a365-da63c35b7fc5">
+    <name>ИдентификаторУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>172</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3e9c7e58-1174-4cc5-9f01-360966e0c495">
+    <name>ПредставлениеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление задачи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b25147a3-8edf-473c-9869-7f00779b4b59">
+    <name>ДополнительныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55172a3a-ccc3-47f3-a898-44b13500a1b8">
+    <name>ДокументОснованиеПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="e4c09f7c-a622-4e61-97e3-3cd9b2b5da10">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSСостоянияЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="dd069a21-56d0-452c-9b3d-785e178c112b">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="145b13af-b946-462f-b895-cbc49945d6f3">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bf35af59-b83b-40a4-b1fd-c43b9b85f24d">
+    <name>ИдЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид задачи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="92cbcded-1a1a-4ff4-8fc7-20a6634166eb">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

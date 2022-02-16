@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf4e2d15-59d6-4577-af51-a96bc2d18311">
+  <name>BarCode</name>
+  <synonym>
+    <key>ru</key>
+    <value>Bar code</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

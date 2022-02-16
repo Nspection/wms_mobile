@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="253d236f-f1ce-4348-93a1-6a023f3220cc">
+  <producedTypes>
+    <selectionType typeId="5077a2f1-7237-48b5-88eb-8c3a51f401ed" valueTypeId="7c16da34-ca9f-4c7c-a0ac-c5ea1ff3120d"/>
+    <listType typeId="ab94bc99-c171-4def-b0c4-8f6ebe97fe64" valueTypeId="05087c5c-e915-4b1b-a79e-83e2e91132c3"/>
+    <managerType typeId="341ee205-2cb6-4ff6-8bec-7624118aee25" valueTypeId="0027b8ed-f6a4-4ff4-84b2-a18da20832bf"/>
+    <recordSetType typeId="8f44f944-9a7b-467e-b262-e46fa73a2e18" valueTypeId="3ab5d682-3115-4dcc-b5b8-3ec2637a06ef"/>
+    <recordKeyType typeId="46b70d7b-5c41-499c-8c4a-7a1587f35077" valueTypeId="296ba616-2432-4ce5-9993-bd93ce129bc3"/>
+    <recordType typeId="90becd58-3ffe-4ff8-a501-0a2091178e3e" valueTypeId="a3eaea35-4003-4425-ad4d-845ceb6d55fa"/>
+    <recordManagerType typeId="e3b0b137-eff2-49f1-b086-ba2115f3143f" valueTypeId="3aff22ca-bc0b-4bec-b577-ea1dd0a3ab56"/>
+  </producedTypes>
+  <name>ВременноеХранилищеФорм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Временное хранилище форм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="61926759-4248-467b-9705-3343f388cadc">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e1005588-df80-4ef2-9041-a9b1420a9ace">
+    <name>УникальныйИдФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный ид формы</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64b57aef-920c-4faa-882e-76598c8acc8b">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>60</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="280e0c00-2373-4986-a978-0b3ee3a28bab">
+  <producedTypes>
+    <selectionType typeId="3807635a-2be6-4ff6-9f12-af663cb34d3e" valueTypeId="7e6d0384-20e1-44c4-a432-44fbda030e31"/>
+    <listType typeId="925e6048-d3c2-483e-98db-7ab6f488df9c" valueTypeId="92c4256d-be1f-4282-aa4b-768cb684bf64"/>
+    <managerType typeId="e9a9c810-cc68-47d9-9050-8990cd28fe58" valueTypeId="03330d8b-a834-4a6e-929d-ab44dbf7fff2"/>
+    <recordSetType typeId="132dc5db-d1e9-45b7-b900-bba32e1b84f4" valueTypeId="ec1670b0-edd5-4bdb-8fe7-3adbdf9fb7f1"/>
+    <recordKeyType typeId="d07e1c36-d229-48cb-8449-27b91d5a258d" valueTypeId="557daa2e-1e2b-40af-bc1d-02cf6daa78cb"/>
+    <recordType typeId="516c1057-b595-4e8c-87ff-7be472c10131" valueTypeId="6c546b1f-0108-43ca-9c09-40ba9ee28828"/>
+    <recordManagerType typeId="987a797d-1c8b-42fe-be24-470927205327" valueTypeId="d8921b52-f057-4112-9e3e-31540e57d4f5"/>
+  </producedTypes>
+  <name>ИтЗадачиНаТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит задачи на ТСД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИтЗадачиНаТСД.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b23c0521-a079-41da-a975-1a9cf695fa9e">
+    <name>ИдентификаторУпаковки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор упаковки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>172</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="e064636b-6595-4ee7-a8b0-98e232ea9aea">
+    <name>ЯчейкаОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка отправитель</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3bcbf696-fc3c-43d0-b073-3ab17e36bef2">
+    <name>ЯчейкаОтправительПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка отправитель представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="baa7720e-c9e0-4124-b80c-f41d71b17cd4">
+    <name>ЯчейкаПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка получатель</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11c54628-2d95-46fb-a12e-a49aeda74567">
+    <name>ЯчейкаПолучательПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка получатель представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="660f3910-b53c-4e2b-997a-9cef759ac7a8">
+    <name>ДополнительныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные данные</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f48be47a-5d99-4d0e-885f-003adae33968">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSСостоянияЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1cc5a34-e48c-456b-a5b5-809e81f5e582">
+    <name>ДанныеДокументаТСД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные документа ТСД</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="58f489ec-c24e-421c-b511-2e54b5429764">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.итНаборка</types>
+      <types>DocumentRef.итОтгрузка</types>
+      <types>DocumentRef.итПриемка</types>
+      <types>DocumentRef.итЗадачиИнвентаризации</types>
+      <types>DocumentRef.итПеремещение</types>
+      <types>DocumentRef.итКонтрольнаяАгрегация</types>
+      <types>DocumentRef.итРазмещение</types>
+      <types>DocumentRef.итПроверка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47cc4032-5d1a-4b78-be1b-f656b6d1e01a">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e477cbb9-25f0-486a-b7be-7429f65849cf">
+    <name>ИдЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид задачи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="7b317fa7-2301-46bd-ae66-09494f25987d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

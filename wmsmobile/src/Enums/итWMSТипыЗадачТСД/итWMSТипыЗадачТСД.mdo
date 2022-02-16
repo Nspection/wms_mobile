@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fd35d83-961d-4723-a425-e0b73c13bbe9">
+  <producedTypes>
+    <refType typeId="90dfa4c2-bdd7-4400-8a28-1f4dd367006f" valueTypeId="a8119e3f-8a69-421d-b5dd-45bb35e233c6"/>
+    <listType typeId="f7f9c2da-9ef4-4b45-9d86-b8ea4d8c74c1" valueTypeId="5763792b-030d-4dfa-9963-426a72547f9a"/>
+    <managerType typeId="281c9bc6-c3f1-4d8d-b0ac-eafba4a7a858" valueTypeId="95ae748d-03f2-4f16-a15c-232e9ca90476"/>
+  </producedTypes>
+  <name>итWMSТипыЗадачТСД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит типы задач ТСД</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e005ae13-4592-40b0-8562-0125673623c3">
+    <name>Приемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2e7f9326-f12d-448b-b96d-806e09372973">
+    <name>Размещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1ff7231-82de-41f8-951c-9130bb521c9b">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc14d026-16db-4b67-9564-fc375eada54d">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20b067fa-3576-4197-b052-30e8046b625a">
+    <name>Наборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8960672-83b4-4d97-9bf4-eef07a5336fb">
+    <name>ПриемкаКакЕсть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приемка как есть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a056c67-9b60-4e01-8fcf-cd714cdc24c0">
+    <name>Отгрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d45799e-e25e-4511-8939-67bf530bcd6b">
+    <name>КонтрольнаяАгрегация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрольная агрегация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e4ed76d-ffd1-41b5-a117-fac323e14117">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="148db25f-cff1-4f4f-b8ba-7c446b835ef7">
+    <name>Переупаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переупаковка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

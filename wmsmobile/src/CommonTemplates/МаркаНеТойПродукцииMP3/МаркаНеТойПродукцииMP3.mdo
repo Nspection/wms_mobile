@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14330469-06b4-4800-8385-ec208f47ee9e">
+  <name>МаркаНеТойПродукцииMP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Марка не той продукции m p3</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

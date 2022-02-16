@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Мои задачи</value>
+  </title>
+  <items xsi:type="form:Table">
+    <name>СписокЗадач</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СписокЗадач</segments>
+    </dataPath>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormGroup">
+      <name>СписокЗадачГруппа1</name>
+      <id>23</id>
+      <items xsi:type="form:FormField">
+        <name>СписокЗадачТипЗадачи</name>
+        <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокЗадач.ТипЗадачи</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокЗадачТипЗадачиРасширеннаяПодсказка</name>
+          <id>19</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокЗадачТипЗадачиКонтекстноеМеню</name>
+          <id>18</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СписокЗадачЗадача</name>
+        <id>20</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокЗадач.Задача</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СписокЗадачЗадачаРасширеннаяПодсказка</name>
+          <id>22</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокЗадачЗадачаКонтекстноеМеню</name>
+          <id>21</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>СписокЗадачГруппа2</name>
+        <id>25</id>
+        <items xsi:type="form:FormField">
+          <name>СписокЗадачЯчейкаОтправитель</name>
+          <id>27</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокЗадач.ЯчейкаОтправитель</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокЗадачЯчейкаОтправительРасширеннаяПодсказка</name>
+            <id>29</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокЗадачЯчейкаОтправительКонтекстноеМеню</name>
+            <id>28</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокЗадачЯчейкаПолучатель</name>
+          <id>30</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокЗадач.ЯчейкаПолучатель</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокЗадачЯчейкаПолучательРасширеннаяПодсказка</name>
+            <id>32</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокЗадачЯчейкаПолучательКонтекстноеМеню</name>
+            <id>31</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокЗадачГруппа2РасширеннаяПодсказка</name>
+          <id>26</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>ColumnGroup</type>
+        <extInfo xsi:type="form:ColumnGroupExtInfo">
+          <showTitle>true</showTitle>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СписокЗадачГруппа1РасширеннаяПодсказка</name>
+        <id>24</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>СписокЗадачКоманднаяПанель</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Left</horizontalAlign>
+    </autoCommandBar>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокЗадачВыбор</name>
+    </handlers>
+    <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокЗадачСтрокаПоиска</name>
+      <id>5</id>
+      <extendedTooltip>
+        <name>СписокЗадачСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>7</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокЗадачСтрокаПоискаКонтекстноеМеню</name>
+        <id>6</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокЗадачСостояниеПросмотра</name>
+      <id>8</id>
+      <extendedTooltip>
+        <name>СписокЗадачСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>10</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокЗадачСостояниеПросмотраКонтекстноеМеню</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокЗадачУправлениеПоиском</name>
+      <id>11</id>
+      <extendedTooltip>
+        <name>СписокЗадачУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>13</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокЗадачУправлениеПоискомКонтекстноеМеню</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>СписокЗадачРасширеннаяПодсказка</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СписокЗадачКонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СписокЗадач.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefresh>true</autoRefresh>
+      <autoRefreshPeriod>5</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnClose</event>
+    <name>ПриЗакрытии</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.ДиспетчерЗадач</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>СписокЗадач</name>
+    <title>
+      <key>ru</key>
+      <value>Список задач</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокЗадач.ДокументОснование</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокЗадач.ИдЗадачи</segments>
+    </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА ИтЗадачиНаТСД.ДокументОснование
+		ИНАЧЕ ИтЗадачиНаТСД.ИдентификаторУпаковки
+	КОНЕЦ КАК Задача,
+	ИтЗадачиНаТСД.ТипЗадачи КАК ТипЗадачи,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ЯчейкаОтправительПредставление
+	КОНЕЦ КАК ЯчейкаОтправитель,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ЯчейкаПолучательПредставление
+	КОНЕЦ КАК ЯчейкаПолучатель,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ИдЗадачи
+	КОНЕЦ КАК ИдЗадачи,
+	ИтЗадачиНаТСД.ДокументОснование КАК ДокументОснование
+ИЗ
+	РегистрСведений.ИтЗадачиНаТСД КАК ИтЗадачиНаТСД
+
+СГРУППИРОВАТЬ ПО
+	ИтЗадачиНаТСД.ТипЗадачи,
+	ИтЗадачиНаТСД.ДокументОснование,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА ИтЗадачиНаТСД.ДокументОснование
+		ИНАЧЕ ИтЗадачиНаТСД.ИдентификаторУпаковки
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ЯчейкаОтправительПредставление
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ЯчейкаПолучательПредставление
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Приемка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.ПриемкаКакЕсть)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.КонтрольнаяАгрегация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Инвентаризация)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Отгрузка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Проверка)
+				ИЛИ ИтЗадачиНаТСД.ТипЗадачи = ЗНАЧЕНИЕ(перечисление.итWMSТипыЗадачТСД.Наборка)
+			ТОГДА &quot;&quot;
+		ИНАЧЕ ИтЗадачиНаТСД.ИдЗадачи
+	КОНЕЦ</queryText>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ТригерПриемаСканераШтрихКода</name>
+    <title>
+      <key>ru</key>
+      <value>Тригер приема сканера штрих кода</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <parameters>
+    <name>ДанныеСканированнойЗадачи</name>
+    <valueType/>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ObjectFormExtInfo"/>
+</form:Form>

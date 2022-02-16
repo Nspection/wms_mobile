@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18a109ae-7232-4aa6-8d06-916331118820">
+  <name>КритичнаяОшибкаMp3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критичная ошибка mp3</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

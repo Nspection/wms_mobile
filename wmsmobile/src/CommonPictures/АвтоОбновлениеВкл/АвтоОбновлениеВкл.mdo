@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2730e4f2-42c4-4f0e-8288-e609be7201b1">
+  <name>АвтоОбновлениеВкл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто обновление вкл</value>
+  </synonym>
+</mdclass:CommonPicture>

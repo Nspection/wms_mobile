@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9a74be7-1799-40ca-92ee-f5434e5ee478">
+  <producedTypes>
+    <objectType typeId="1927226b-b3a7-4e42-9f4d-65491cae4ae6" valueTypeId="d2f9fdb7-b864-4e4d-b70c-55263b134808"/>
+    <managerType typeId="0cf89cda-a25d-4764-abe5-b576c12d4b40" valueTypeId="414b0ff8-ab1e-4231-a129-3ad202a9fea9"/>
+  </producedTypes>
+  <name>ДиспетчерЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДиспетчерЗадач.Form.ЗадачиКРаспределению</defaultForm>
+  <forms uuid="a29e7f99-606d-442d-8451-75ca7a5a1f16">
+    <name>ЗадачиКРаспределению</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи к распределению</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="acb1ead1-edbc-4a14-a59e-8d6485e89bd5">
+    <name>ФормаВыбораДействий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора действий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d2f4b45-20b0-4c69-8d67-40aac9e4fed6">
+    <name>ПолученныеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полученные задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30246093-0f23-469d-8fe0-443eb3719c59">
+    <name>МоиЗадачиОбщийСписок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои задачи общий список</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ec9dd91-1433-410d-92a9-3b25325dc1cd">
+    <name>ЗадачиКРаспределениюДерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи к распределению дерево</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdccae48-51a0-47de-bbda-75a9dc4e4fef">
+    <name>ФормаПодстрокиПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма подстроки поиска</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74d3ede2-373a-4109-b361-d0a305f11596">
+    <name>ЗадачТСДКРаспределениюПоРазделам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задач ТСД К Распределению по разделам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c8ce12a9-5e48-4a41-aa97-21429a987fe0">
+    <name>ЗадачиНаТСДПоРазделам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задачи на ТСДПо разделам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

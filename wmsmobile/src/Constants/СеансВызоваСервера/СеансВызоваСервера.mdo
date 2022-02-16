@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="633e300e-61bc-4a9c-9464-ab31cc126630">
+  <producedTypes>
+    <managerType typeId="b9f1f13b-8a1e-4117-8ef5-4c22f87b1d7d" valueTypeId="45372e0e-a1a8-41c3-89bb-4c815e9b92b1"/>
+    <valueManagerType typeId="38e3800e-1671-4a0e-9bf5-39769652312d" valueTypeId="1cefb71f-4127-4643-b5cb-8f176d9c6260"/>
+    <valueKeyType typeId="a8eda95b-c44c-4c83-b9d7-92b2364cbeed" valueTypeId="34e575f5-bc1c-4769-a9b7-efb5f5c501fc"/>
+  </producedTypes>
+  <name>СеансВызоваСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сеанс вызова сервера</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

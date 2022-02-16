@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e80a777e-0165-4285-9a17-6e137b6b2129">
+  <producedTypes>
+    <objectType typeId="8bb4ffb2-d8c1-49f3-ae28-e7cb5aa96a71" valueTypeId="e664d2bb-28fe-4c5e-b8a1-d3097ca60f1b"/>
+    <refType typeId="43442fe3-2732-41ca-8866-8cc5c4219b0f" valueTypeId="8a651691-d1a3-409e-845c-b4032cea845c"/>
+    <selectionType typeId="467233ac-4ad6-48df-ba60-1c971f697c18" valueTypeId="210acf1f-7fe6-4c11-9c2b-0548ad01c014"/>
+    <listType typeId="a7ebe92e-6e65-408e-afb0-fd86939b6563" valueTypeId="76c88bac-d0a4-49d7-ac81-7fec82234097"/>
+    <managerType typeId="14ca2346-46a3-49a6-908b-17ec239a4e30" valueTypeId="24752754-5aca-4f35-920b-f0ebd4243029"/>
+  </producedTypes>
+  <name>итПриемка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит приемка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.итПриемка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.итПриемка.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.итПриемка.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3e47d4d4-6cec-4feb-ac4f-6afa1b6d1d7f">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="00ddec4e-1b76-4780-8bbf-67ca3025555d">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39d71e3d-1aa1-47f8-adf7-60b9bdc9f739">
+    <name>ЯчейкаПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка получатель</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa2866c5-2828-4c71-951b-9ce4b2fb02e1">
+    <name>ЯчейкаПолучательПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ячейка получатель представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6759c61f-c89d-40bf-b777-de1995b1a159">
+    <name>ПомарочныйУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помарочный учет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6dba05dc-63e3-4c4c-9c98-b36d1e61a19d">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7174e2b-c50a-414d-87e4-1a9254a90a9d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="75344451-06b4-4026-93ab-38507c6f2f73">
+    <name>ФормаЗадачиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95b925a4-1431-481c-8f06-a50494688535">
+    <name>ФормаСтрокиЗадачиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма строки задачи документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2137d65-4e02-4b1b-921c-80b0c5f37624">
+    <name>СчитываниеВнешнегоSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Считывание внешнего SSCC</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d78fd7e-9f44-4048-847e-9c15d9d15590">
+    <name>ФормаСканированияКонтрольнойМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма сканирования контрольной марки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85046dd4-4e07-4e64-a936-f21ac5081f6c">
+    <name>ФормаКомментарияПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма комментария приемки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f828b570-8f73-4766-8f2c-629043fe2207">
+    <name>ФормаПросмотраСтрокиНМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотра строки НМ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="695d06e0-d312-4b75-a443-b6ef77a310f7">
+    <name>ФормаАгрегацииМарки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма агрегации марки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="895acfc0-fe36-4da4-92e6-544fece94597">
+    <producedTypes>
+      <objectType typeId="28c517aa-8287-4dac-91f2-ff5d8f7572a8" valueTypeId="f45fb896-d0b8-400c-a6be-baeb6b081e72"/>
+      <rowType typeId="1b3301df-260d-49dc-9c03-a36b544e2070" valueTypeId="ca5ef821-4f64-4adc-a655-2b77034054c5"/>
+    </producedTypes>
+    <name>ДанныеФизическогоНосителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные физического носителя</value>
+    </synonym>
+    <attributes uuid="76238122-fd63-4638-a623-a02b7c2db360">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>ГУИД</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="88639fea-18c2-41c7-8d8a-941801062bfa">
+      <name>НоменклатураПредставление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fdfafdba-77d8-4417-b330-1daf7f132611">
+      <name>ДатаРозлива</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата розлива</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="34555eba-4af5-4623-b066-2e63e62ed5d6">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4b607f6d-1444-4767-8d7d-bef7627dd7a2">
+    <producedTypes>
+      <objectType typeId="c666d268-cb9d-475e-864a-66418f76791f" valueTypeId="5446d133-7190-4011-b6e8-ecc074c482f3"/>
+      <rowType typeId="9756d785-e1b2-4a1b-9d3e-942b05224188" valueTypeId="c1b6b5e4-9205-4a96-8200-4f06f9afd277"/>
+    </producedTypes>
+    <name>ДанныеПомарочногоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные помарочного учета</value>
+    </synonym>
+    <attributes uuid="00ec88b3-ac83-4184-a7da-579bfe4e81fb">
+      <name>SSCC</name>
+      <synonym>
+        <key>ru</key>
+        <value>SSCC</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>172</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6663833d-058e-451f-8d8f-6524dc8e7e85">
+      <name>GTIN</name>
+      <synonym>
+        <key>ru</key>
+        <value>GTIN</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>172</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bfd12258-30fb-4795-b1de-aed8e078e62e">
+      <name>Марка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Марка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>172</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

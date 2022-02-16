@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f8705b3-88b6-4714-8a11-379f2eeb7022">
+  <producedTypes>
+    <objectType typeId="adf21b01-83c4-474b-a0b9-cbf8d5be0928" valueTypeId="789224f7-482a-466d-8203-a3796896b0f8"/>
+    <refType typeId="931caa91-4f56-4f87-9b18-ccbd7e9820bb" valueTypeId="06ded324-4397-42b1-bde2-1657412429dc"/>
+    <selectionType typeId="c2e7ce90-53fc-4d69-961b-eb3dccad7f8d" valueTypeId="1146c4f1-eb5f-4aaf-8e48-7838708c0ff7"/>
+    <listType typeId="e942f30c-5fff-4b5f-a53a-9f1f0056f8b6" valueTypeId="88aedca3-1a93-46e7-8da6-1eceeae93572"/>
+    <managerType typeId="28397352-8f50-4a5e-8173-f2b494f90623" valueTypeId="86f420e5-d347-42eb-a307-2d870268630f"/>
+  </producedTypes>
+  <name>итWMS_ПричиныОтменыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMS причины отмены задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.итWMS_ПричиныОтменыЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.итWMS_ПричиныОтменыЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.итWMS_ПричиныОтменыЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.итWMS_ПричиныОтменыЗадач.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.итWMS_ПричиныОтменыЗадач.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="5ca1a238-2ebb-4a9f-99a7-8019ff8e1ec7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93a5f01f-f076-42be-b89a-2d4333212cef">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85513b82-6008-457d-84b4-e40e6daa4754">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

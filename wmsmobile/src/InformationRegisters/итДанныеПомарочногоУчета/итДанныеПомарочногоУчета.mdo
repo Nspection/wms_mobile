@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="787f867e-58bf-43da-9e9f-9f06e4825478">
+  <producedTypes>
+    <selectionType typeId="9762749f-9b15-4897-8bc3-5f71d37d295a" valueTypeId="5b8c5766-6dfc-415a-b53d-4e0038fc234a"/>
+    <listType typeId="3799f7b8-96f8-44c2-94e3-13f7f0b98334" valueTypeId="2aba9241-85e7-4a63-957a-0668b242041a"/>
+    <managerType typeId="41d10125-fe9b-43d8-8044-77fd8d1952a4" valueTypeId="080cde96-0fad-4292-aa6e-eda513bddb68"/>
+    <recordSetType typeId="ccc18bc6-9c4e-4593-9384-421f876d3f80" valueTypeId="02c306eb-b40d-4ade-94ad-066470e70dbf"/>
+    <recordKeyType typeId="6f9640ee-0d51-45e2-bc61-6aabbdca5042" valueTypeId="da0bb17c-f92f-4434-80fe-6362bd2a3d77"/>
+    <recordType typeId="30c1cb92-797e-4780-b3cc-da6e4623de09" valueTypeId="9a8f31f2-9ec4-4b6c-80e6-658c2294c3ee"/>
+    <recordManagerType typeId="f6fd0b8d-ac99-48f1-a5da-366cb50adc35" valueTypeId="6eb1c2e0-809f-4b21-9f34-091143d7c29d"/>
+  </producedTypes>
+  <name>итДанныеПомарочногоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит данные помарочного учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ebfbc222-ff6a-4942-b7e1-adf9d9415072">
+    <name>SSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>SSCC</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>172</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="3166eb48-2912-4345-8797-166c9b3095ce">
+    <name>GTIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>GTIN</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>172</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="49e375d5-8943-4877-9376-3c86509822a3">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="41f7d361-7d7b-46a2-b231-6d144d4fcab4">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="304845c9-446a-4684-baa2-098c27a501e5">
+    <name>ДатаРозлива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата розлива</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da0f6463-397b-4c36-8651-bec420fb2575">
+    <name>НоменклатураПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="390ab666-c1a4-4902-a9b9-0b85e5f39d02">
+    <name>СерияНоменклатурыПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="d7b16b0e-0e1b-457b-abbb-497be7f89394">
+    <name>ПризнакОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак обработки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d66821c7-0455-444e-ac9c-da5176ae3778">
+    <name>ДополнительныйКлюч</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный ключ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="f53f39fb-b28e-4060-8ea9-d506898b8a64">
+    <name>Ключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7201b6cf-b658-483a-acc5-95b2dd7c3ad0">
+    <name>Марка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>190</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b685c50-907d-48e7-8910-8ab02b89421b">
+  <producedTypes>
+    <selectionType typeId="636a913b-9c54-48fd-ab1b-2691de3ea421" valueTypeId="3193f72f-611d-4e30-94ce-92635a0e5835"/>
+    <listType typeId="e63c5bb8-8953-41dd-8995-4e0d8f718fe0" valueTypeId="f9a29fa3-c421-4a54-8e58-6f9ca3da1e98"/>
+    <managerType typeId="25fcaeb8-dbd7-4972-aac1-ec8aad8f5a61" valueTypeId="48955c10-5bdf-4e4f-8e65-efdee108a225"/>
+    <recordSetType typeId="c6b1bf00-100b-43e5-bdec-8b5c0edbd100" valueTypeId="6de172ce-7777-4c94-ab27-0412ab3e2394"/>
+    <recordKeyType typeId="74cfec05-99a1-4158-8f07-0bbdf14cf51e" valueTypeId="14273a4a-cfc1-4ba4-b58f-a5603b974f27"/>
+    <recordType typeId="bd71f5a1-6037-4c3e-ac40-dd82ebdd1610" valueTypeId="d91a42ce-0b60-47b1-88b3-15957163f9f6"/>
+    <recordManagerType typeId="cc0f276d-f2fa-413f-8f33-c6a7cb3c2d9c" valueTypeId="c507daec-a0b4-4107-ba79-ceb490f3f716"/>
+  </producedTypes>
+  <name>итЗадачиКРаспределениюДополнительныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит задачи к распределению дополнительные данные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="422f3729-dadc-4241-9ae7-38860d6d784d">
+    <name>Реквизит1Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1 строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="b965882c-afb4-4956-959b-f2a5800a170d">
+    <name>Реквизит2Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2 строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="01fcd2b6-a90f-48ad-ba01-5e85252e32c7">
+    <name>Реквизит3Строка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3 строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="ed27b023-9a88-4c91-8e1e-0b945b4e7dea">
+    <name>Реквизит1Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1 число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c4083d5e-d9e7-431f-82d5-18b605d0c92d">
+    <name>Реквизит2Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2 число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e997c5c4-5853-44b4-89da-2bbc9036e248">
+    <name>Реквизит3Число</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3 число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4a66c458-b6bc-42b3-80f4-f6c568db2fcf">
+    <name>Реквизит1Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1 дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3302a40d-7519-4461-a1e0-c03d1f9cf5a7">
+    <name>Реквизит2Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2 дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="34b1dde8-8650-4040-b3ff-005be01ce272">
+    <name>Реквизит3Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3 дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="931f6303-10da-476c-8202-0066e520e2dd">
+    <name>Реквизит1Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6f133263-7f02-4eb3-9149-47d95a9b997f">
+    <name>Реквизит2Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a9a112e-86ae-4931-a656-84e064f7ba1e">
+    <name>Реквизит3Булево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3 булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1edceeec-46bf-4dab-9226-45ec1ff64947">
+    <name>Реквизит1ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит1 ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60b69dbe-6103-41ca-bde1-db9f1c7a0097">
+    <name>Реквизит2ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2 ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="33bcbefe-955c-4424-ad14-5bacfe1992f2">
+    <name>Реквизит3ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит3 ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d158556c-4ebf-4b45-a673-84b0a50b9e9d">
+    <name>ИдЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ид задачи</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd94b12d-5dd5-48f0-851a-43ba369ece58">
+  <name>Роль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роль</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

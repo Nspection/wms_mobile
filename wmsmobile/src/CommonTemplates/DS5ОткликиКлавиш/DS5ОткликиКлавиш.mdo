@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6836fd71-c938-473a-99b0-c9cccbb4ff9c">
+  <name>DS5ОткликиКлавиш</name>
+  <synonym>
+    <key>ru</key>
+    <value>D s5 отклики клавиш</value>
+  </synonym>
+</mdclass:CommonTemplate>
