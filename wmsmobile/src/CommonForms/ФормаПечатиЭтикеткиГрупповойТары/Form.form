@@ -1949,8 +1949,7 @@
     </title>
     <id>26</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
