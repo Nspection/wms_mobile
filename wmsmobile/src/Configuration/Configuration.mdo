@@ -116,21 +116,22 @@
   <commonTemplates>CommonTemplate.МаркиКоробаОбработаныMp3</commonTemplates>
   <commonTemplates>CommonTemplate.КритичнаяОшибкаMp3</commonTemplates>
   <commonTemplates>CommonTemplate.ErrorMp3</commonTemplates>
-  <commonModules>CommonModule.ОбработчикHTTP</commonModules>
-  <commonModules>CommonModule.ОбработчикиЗапросаСервера</commonModules>
-  <commonModules>CommonModule.СлужебныеФункцииИПроцедурыКлиентСервер</commonModules>
   <commonModules>CommonModule.МодульМобильныхДивайсовКлиент</commonModules>
   <commonModules>CommonModule.МодульРаспределенияДанных</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхОбщиеФункцииИПроцедуры</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхПриемки</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхРазмещения</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхПеремещения</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхНаборки</commonModules>
-  <commonModules>CommonModule.ОбработчикДанныхКонтрольнойАгрегации</commonModules>
+  <commonModules>CommonModule.ОбработчикHTTP</commonModules>
   <commonModules>CommonModule.ОбработчикДанныхЗадачИнвентаризации</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхПеремещения</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхКонтрольнойАгрегации</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхНаборки</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхОбщиеФункцииИПроцедуры</commonModules>
   <commonModules>CommonModule.ОбработчикДанныхОтгрузки</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхПриемки</commonModules>
   <commonModules>CommonModule.ОбработчикДанныхПроверки</commonModules>
+  <commonModules>CommonModule.ОбработчикДанныхРазмещения</commonModules>
+  <commonModules>CommonModule.ОбработчикиЗапросаСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.ОбщийМодульКлиентскойЧасти</commonModules>
+  <commonModules>CommonModule.СлужебныеФункцииИПроцедурыКлиентСервер</commonModules>
   <commonModules>CommonModule.униОбщийМодуль</commonModules>
   <constants>Constant.IPАдресСервера</constants>
   <constants>Constant.ИмяПубликацииБазы</constants>
