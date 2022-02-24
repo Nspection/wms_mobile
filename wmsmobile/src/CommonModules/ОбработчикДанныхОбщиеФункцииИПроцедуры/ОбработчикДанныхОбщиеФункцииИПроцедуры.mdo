@@ -6,4 +6,5 @@
     <value>Обработчик данных общие функции и процедуры</value>
   </synonym>
   <server>true</server>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
