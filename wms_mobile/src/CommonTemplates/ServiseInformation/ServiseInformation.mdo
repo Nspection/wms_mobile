@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98bdaeb7-d5de-4120-95a4-669fda29a81d">
+  <name>ServiseInformation</name>
+  <synonym>
+    <key>ru</key>
+    <value>Servise information</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

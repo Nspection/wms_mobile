@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06ae0e39-add3-4e53-876a-6f0da8a5aa52">
+  <producedTypes>
+    <managerType typeId="bc0252f9-8bbf-4a2f-8114-ca80bd57bbaa" valueTypeId="2220faca-742a-4d3d-b466-8305cd4bb101"/>
+    <valueManagerType typeId="ffbfc420-276c-4999-b975-ec331a023d46" valueTypeId="81a6cbb4-3d2d-4695-8edc-cf5a4bcb4ebc"/>
+    <valueKeyType typeId="fd0ee7a6-c8e9-4b59-853b-6f72afdeeabb" valueTypeId="916ca81c-020c-4605-8091-ab9fd2f29cfc"/>
+  </producedTypes>
+  <name>ПолучатьПМУАссинхронно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получать ПМУАссинхронно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

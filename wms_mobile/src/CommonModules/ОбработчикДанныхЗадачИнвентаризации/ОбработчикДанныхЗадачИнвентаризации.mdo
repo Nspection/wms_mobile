@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a873fe6-3075-4113-b012-8a6802cd53c7">
+  <name>ОбработчикДанныхЗадачИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик данных задач Инвентаризации</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

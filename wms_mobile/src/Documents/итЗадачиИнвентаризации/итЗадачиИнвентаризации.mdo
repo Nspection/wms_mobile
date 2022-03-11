@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f6a59aa-1847-43d4-a52e-dd5d8788870e">
+  <producedTypes>
+    <objectType typeId="a6c96e9d-9a75-403b-8fd8-ed6d810bd170" valueTypeId="8f917a07-acf4-45fc-b1af-d0ed7781fb4f"/>
+    <refType typeId="6c9c24d5-92d8-4486-b9de-62cf3339ddda" valueTypeId="8698e1a2-5eb1-4911-b6ee-144ec558161b"/>
+    <selectionType typeId="56d2594b-8dfd-4fb6-bbb1-9b3942087b9d" valueTypeId="f874acd2-5604-4be8-a0ea-146062d16b90"/>
+    <listType typeId="639fa187-e1fa-496e-9387-410c3cf5779f" valueTypeId="5b99cb9b-198a-4e7e-b13d-6d3de398a5f5"/>
+    <managerType typeId="9c68c4cf-cce5-4455-8679-0a6253c4b9e6" valueTypeId="6d7c6f25-0775-49b6-9094-833b4db2a1d1"/>
+  </producedTypes>
+  <name>итЗадачиИнвентаризации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит WMSЗадачи Инвентаризации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.итЗадачиИнвентаризации.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.итЗадачиИнвентаризации.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="94d62028-27ba-486c-9a6d-beb6761933ca">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="573c6e02-139a-4ad3-9091-c63b7ba1a61e">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d172c1fb-1eae-4626-a14c-d470e56cddac">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0c112757-c65e-41c1-82a1-19edeec45cb7">
+    <producedTypes>
+      <objectType typeId="1ebcb2fc-19dc-4e41-b73a-b3b60ddeac21" valueTypeId="af047209-9b4c-4fb5-abf3-f8ae087dcf0f"/>
+      <rowType typeId="ec149c79-6630-40ef-8f4e-9d639d9f6b9c" valueTypeId="bfd916fd-bfe7-483a-9dca-d47a4f8cf5ca"/>
+    </producedTypes>
+    <name>ШтрихКодыЯчеекДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих коды ячеек документа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="85229bb9-f5a8-47db-95c7-079a27e6871e">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="925fab64-be40-4dc8-9105-981982f0489c">
+      <name>ШтрихКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрих код</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5da404b-370d-44d8-b771-4f625ec49ca8">
+  <producedTypes>
+    <managerType typeId="e53f2b09-fd12-4b3f-ad06-e485234e7546" valueTypeId="b3a82df7-1b36-4ace-8fb7-0710afc99f01"/>
+    <valueManagerType typeId="2ebbf9c8-807c-4252-b194-e18fde2fb663" valueTypeId="f8ccc72c-025f-4182-8773-600f495bd5fc"/>
+    <valueKeyType typeId="eba21577-6946-5e91-8048-6d7ae4e8b8d7" valueTypeId="b44ae25e-cf92-591e-8a78-1b47a5457c83"/>
+  </producedTypes>
+  <name>униВключенКонтрольНомераЛинииПереагрегации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уни включен контроль номера линии переагрегации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

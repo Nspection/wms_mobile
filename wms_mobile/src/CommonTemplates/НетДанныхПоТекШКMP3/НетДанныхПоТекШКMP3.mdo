@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df74e915-e528-418f-b52a-e8185308b9c8">
+  <name>НетДанныхПоТекШКMP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нет данных по тек ШК MP3</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

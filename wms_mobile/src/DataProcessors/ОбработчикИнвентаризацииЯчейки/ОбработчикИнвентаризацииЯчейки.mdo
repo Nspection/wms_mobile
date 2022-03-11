@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c33685-77cb-4517-bfb4-e35df46a6cbb">
+  <producedTypes>
+    <objectType typeId="0bf67588-0efa-402f-95d3-f07a035a04a8" valueTypeId="9bde834d-80c0-4dc6-ae58-351c4c6fc424"/>
+    <managerType typeId="e55d92e1-c2fb-4995-89a1-a1de9c94f554" valueTypeId="160b7e29-8d59-47e9-99cc-0c9bafb3d628"/>
+  </producedTypes>
+  <name>ОбработчикИнвентаризацииЯчейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик Инвентаризации ячейки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбработчикИнвентаризацииЯчейки.Form.ФормаОбработки</defaultForm>
+  <forms uuid="f87e7b4f-6785-4a96-84ee-fba1902c532a">
+    <name>ФормаОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обработки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e656471c-51f8-4b81-8cb7-f8b28f511cf1">
+    <name>ФормаИзмененияСущестующегоSSCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения сущестующего SSCC</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f43d2991-56f7-4795-9589-f44188c6c0e4">
+    <name>ФормаДобавленияНового</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма добавления нового</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdf89acf-66e2-475f-930b-e0b6f0c495a1">
+    <name>ФормаПросмотраСтрокиНМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотра строки НМ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1883973-02b0-46ac-9950-debfd86d6f28">
+    <name>ФормаРедактированияДанныхСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования данных строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

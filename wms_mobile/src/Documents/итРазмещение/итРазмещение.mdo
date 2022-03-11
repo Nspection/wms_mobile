@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="88fc4e44-c6ff-4d31-bf8d-1b72e8434e76">
+  <producedTypes>
+    <objectType typeId="194abbbe-b3ba-4f3e-8d06-fe38e9f63da3" valueTypeId="6616553b-c7f4-4945-857a-96a6b9d0e950"/>
+    <refType typeId="d4774fd0-a1f8-4459-8e65-18e63bf19850" valueTypeId="f241290b-0e1b-4ae7-8440-f0da4264cb7b"/>
+    <selectionType typeId="6b188792-633e-409c-b0bc-f0cb961c58d2" valueTypeId="146f7618-b619-455d-ab49-83ad0e614daa"/>
+    <listType typeId="42134308-29fc-4d18-9ec1-eee5f6353b90" valueTypeId="72559dab-85c5-47a6-b31d-6419e4c2fe98"/>
+    <managerType typeId="323d759a-9ac0-4cf3-bd90-b95a46560b0b" valueTypeId="7f1531b2-1241-4825-abcb-d47f116db183"/>
+  </producedTypes>
+  <name>итРазмещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит размещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.итРазмещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.итРазмещение.Form.ФормаЗадачиДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="21d34e64-6dc6-4fd9-a890-2a21198bc32a">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab54f1f1-0689-4af0-8b9f-33c7827ac6f7">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f2fc117f-117c-40a5-9263-4cff07618ffe">
+    <name>ФормаЗадачиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="19d501f4-a917-4cac-a423-3c6397e32708">
+    <producedTypes>
+      <objectType typeId="1ffa3a13-add2-44c7-8865-7fb1820b5105" valueTypeId="9a85c0c6-5c8a-419f-8f43-47c9731ae7bb"/>
+      <rowType typeId="af3a344a-c65f-47f7-997c-d36199b1c589" valueTypeId="079fd49e-50be-4991-b14f-8864309c15ea"/>
+    </producedTypes>
+    <name>ШтрихКодыЯчеекДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрих коды ячеек документа</value>
+    </synonym>
+    <attributes uuid="7529bd4b-b105-4338-88e8-26a11c0613d3">
+      <name>Ячейка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ячейка</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="36ba5300-1a66-4c5a-a45f-796dce1d34f7">
+      <name>ШтрихКод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Штрих код</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>128</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c792d0-29ba-4d85-b4de-0507be6865db">
+  <producedTypes>
+    <objectType typeId="8039586d-d05d-4b98-86f1-b8a87a6b1ecf" valueTypeId="21fbcc6b-6f08-4984-9aa1-ee52fd107d1a"/>
+    <refType typeId="e8f769d5-71e1-44b0-a719-b04c7fc21c47" valueTypeId="bc2b286b-dacf-4f0f-b5b5-18d61bfdf9af"/>
+    <selectionType typeId="4bcc8b3e-c362-4206-b484-eea2f1d089a9" valueTypeId="d1867a0a-f11a-4772-bec1-7807496b8e97"/>
+    <listType typeId="a32530bf-0283-43ac-952c-7e9843142e13" valueTypeId="14cd909a-81b2-41e2-a7f4-48420a6fc2da"/>
+    <managerType typeId="fd8087ee-0ebe-4d99-89c2-2544eb8a9ab3" valueTypeId="0e70e561-1b07-46ab-9f85-dbe81ce94d85"/>
+  </producedTypes>
+  <name>итПроверка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ит проверка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.итПроверка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.итПроверка.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6cb220d9-f8f2-4fb0-a03d-5bcc403c8b34">
+    <name>ГУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГУИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ab05b0a8-2f0d-4a8b-b099-4a28a3d7930e">
+    <name>ТипЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип задачи</value>
+    </synonym>
+    <type>
+      <types>EnumRef.итWMSТипыЗадачТСД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0774d82e-b238-4b89-9332-bc84ea3a4c16">
+    <name>СтруктураКраткогоСодежимого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура краткого содежимого</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6e4898d1-c842-4adf-b552-d499db945d50">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a3918ea-d577-44bf-837e-9d8c1341e721">
+    <name>ФормаЗадачиДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8756ecd9-a458-4738-97b7-29dd9d41e62e">
+    <name>ФормаИзмененияСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма изменения строки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="79c3f2f6-a398-4ac1-9890-b1ffd398cc09">
+    <name>ФормаКраткогоСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма краткого содержания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

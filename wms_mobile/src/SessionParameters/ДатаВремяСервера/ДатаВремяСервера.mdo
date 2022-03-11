@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d92a537e-436d-4b2e-b7d8-1c28074c49f5">
+  <name>ДатаВремяСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата время сервера</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+</mdclass:SessionParameter>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f22841fa-714e-4952-84ef-82c80ee78d1a">
+  <producedTypes>
+    <managerType typeId="c65bceaa-86a3-438d-9afc-0a3346060a51" valueTypeId="0324dd08-0ed0-43dc-a90d-292d27577f85"/>
+    <valueManagerType typeId="3d6164b7-103f-40f4-924c-5fdbf3529739" valueTypeId="9d997750-b7af-4fb3-8d79-ccd3dd4a825a"/>
+    <valueKeyType typeId="0169bcac-82c6-5570-8702-0d2ee9de9172" valueTypeId="030efa43-e050-5142-8baa-e2f07d1a3ece"/>
+  </producedTypes>
+  <name>униАдресДляПодключенияКУниверсальномуВебСервису</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уни адрес для подключения к универсальному веб сервису</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>199</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

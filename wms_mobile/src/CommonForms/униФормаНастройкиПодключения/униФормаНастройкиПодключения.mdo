@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4845569-1500-42a2-98d9-2a1019ec8d43">
+  <name>униФормаНастройкиПодключения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уни форма настройки подключения</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:CommonForm>
